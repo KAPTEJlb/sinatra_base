@@ -1,24 +1,24 @@
 development:
   adapter: mysql2
-  username: <%= ENV['MYSQL_USERNAME'] %>
-  password: <%= ENV['MYSQL_PASSWORD'] %>
-  host: <%= ENV['MYSQL_ADDRESS'] %>
-  database: <%= ENV['MYSQL_DATABASE'] %> 
+  username: "root"
+  password: "password"
+  host: "localhost"
+  database: "name_db"
 test:
   adapter: mysql2
-  username: <%= ENV['MYSQL_USERNAME'] %>
-  password: <%= ENV['MYSQL_PASSWORD'] %>
-  host: <%= ENV['MYSQL_ADDRESS'] %>
-  database: <%= ENV['MYSQL_DATABASE'] %>
+  username: "root"
+  password: "password"
+  host: "localhost"
+  database: "name_db"
 production:
   adapter: mysql2
-  username: <%= ENV['MYSQL_USERNAME'] %>
-  password: <%= ENV['MYSQL_PASSWORD'] %>
-  host: <%= ENV['MYSQL_ADDRESS'] %>
-  database: <%= ENV['MYSQL_DATABASE'] %>
+  username: "root"
+  password: "password"
+  host: "localhost"
+  database: "name_db"
 staging:
   adapter: mysql2
-  username: <%= ENV['MYSQL_USERNAME'] %>
-  password: <%= ENV['MYSQL_PASSWORD'] %>
-  host: <%= ENV['MYSQL_ADDRESS'] %>
-  database: <%= ENV['MYSQL_DATABASE'] %> 
+  username: "root"
+  password: "password"
+  host: "localhost"
+  database: "name_db"

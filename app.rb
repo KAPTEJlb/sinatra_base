@@ -1,6 +1,6 @@
-
 require "sinatra"
 require "sinatra/activerecord"
+require "zlib"
 
 class User < ActiveRecord::Base
 end
